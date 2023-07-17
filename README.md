@@ -46,4 +46,11 @@ Para instalar o Backend Entrar no Repositorio acima e seguir passo a passo.
 
 ![](https://github.com/pedrosantosara/PS-React-Frontend/blob/main/readmeContent/vite.gif)
 
+# Preview Projeto 
+![image](https://github.com/pedrosantosara/PS-React-Frontend/assets/59851589/a042698a-9723-4f7b-af89-08a210403e58)
+
+# Preview Projeto mobile
+<p align="center">
+  <img src="https://github.com/pedrosantosara/PS-React-Frontend/assets/59851589/5dbec9cb-1b47-429e-9390-16845710c777"/>
+</p>
 
