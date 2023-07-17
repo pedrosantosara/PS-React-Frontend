@@ -6,8 +6,6 @@ import { useState, useEffect } from 'react';
 
 
 function Table({ accountData }) {
-
-  // Lógica para paginação    
   const pageSize = 4
   const [currentPage, setCurrentPage] = useState(1)
   const totalPages = Math.ceil(accountData.length / pageSize);
@@ -35,13 +33,9 @@ function Table({ accountData }) {
   }, [accountData]);
 
 
-  // Lógica para exibição da tabela 
   const startIndex = (currentPage - 1) * pageSize
   const endIndex = startIndex + pageSize
-
   const currentData = processedData.slice(startIndex, endIndex);
-
-
   const formattedValue = { style: 'currency', currency: 'BRL' }
 
   return (
