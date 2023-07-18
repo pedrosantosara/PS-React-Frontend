@@ -41,6 +41,7 @@ Para instalar o Backend Entrar no Repositorio acima e seguir passo a passo.
 
 * No terminal dentro da pasta do projeto use o comando `npm run dev`
 * Caso deseje rodar o projeto em outra porta ex:`npm run dev -- --port 4444`
+* Se desejar usar ou endereço ou outra porta para fazer a requisição altere o Form.jsx linha 17 e o App.jsx linha 27
 
 * Para abrir no navegador  clique com o CTRL pressionado no link do terminal ou entre no endereço `http://localhost:5173/` ou `http://localhost:suaporta/`
 
