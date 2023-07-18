@@ -14,7 +14,7 @@ export default function Form ({accountNames, setAccountData, setAccountBalance})
   const handleSubmit = (event) => {
     event.preventDefault()
 
-    let baseUrl = 'http://179.108.250.70/transferencias'
+    let baseUrl = 'http://localhost:8080/transferencias'
     
     const queryParams = {}
     if(startDate) queryParams.inicio = startDate

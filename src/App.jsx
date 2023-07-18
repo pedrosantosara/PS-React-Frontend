@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {  
     let balance = 0
     
-    axios('http://179.108.250.70/transferencias')
+    axios('http://localhost:8080/transferencias')
       .then(response => {
         for (const key of response.data.transferencias) {
           balance += key.valor
